@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name     = 'AFNetworkLumberjackLogger'
-  s.version  = '3.0.0'
+  s.version  = '3.0.1'
   s.license  = 'MIT'
   s.summary  = 'AFNetworking 2.0 Extension for Network Request Logging with Cocoa Lumberjack'
-  s.homepage = 'https://github.com/RomainBoulay/AFNetworkLumberjackLogger'
+  s.homepage = 'https://github.com/SemenovAlexander/AFNetworkLumberjackLogger'
   s.authors  = { 'Romain Boulay' => 'romain.boulay@gmail.com' }
-  s.source   = { :git => 'https://github.com/RomainBoulay/AFNetworkLumberjackLogger.git', :tag => "lumberjack-" + s.version.to_s }
+  s.source   = { :git => 'https://github.com/SemenovAlexander/AFNetworkLumberjackLogger.git', :tag => "lumberjack-" + s.version.to_s }
   s.source_files = 'AFNetworkLumberjackLogger'
   s.requires_arc = true
   s.ios.deployment_target = '6.0'
