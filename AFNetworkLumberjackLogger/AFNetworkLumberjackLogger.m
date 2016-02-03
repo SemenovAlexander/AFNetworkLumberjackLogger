@@ -27,6 +27,7 @@
 #import <objc/runtime.h>
 #import <CocoaLumberjack/CocoaLumberjack.h>
 
+static const DDLogLevel ddLogLevel = DDLogLevelAll;
 
 static NSURLRequest * AFNetworkRequestFromNotification(NSNotification *notification) {
     NSURLRequest *request = nil;
